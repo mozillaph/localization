@@ -21,3 +21,4 @@ Localization is sometimes written as **l10n**, where 10 is the number of letters
 ## Links
 - Tagalog (TL) Style Guide [https://mozilla-l10n.github.io/styleguides/tl/]
 - Tagalog in Pontoon [https://pontoon.mozilla.org/tl/]
+- Project Common Voice [https://voice.mozilla.org/en/languages]
