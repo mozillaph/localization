@@ -13,10 +13,10 @@ This style guide is broken up into two main parts:
 
 ### Rule of Thumb
 
-* DO NOT translate technical terms to Tagalog/Filipino.
-* DO NOT translate proper nouns such as company brands and trademarks to Tagalog/Filipino.
-* DO NOT transliterate. In Tagalog/Filipino, words are spelled in accordance to how a Filipino enunciates them; examples include drayber (“driver”), diskusyon (“discussion”) and iskul (“school”). Alternatively, words are spelled as they were in the source language. In a strictly formal Tagalog/Filipino translation, purists resort to transliteration only when source words—particularly technical, scientific, medical and legal word forms—definitely have no direct, exact and accurate equivalents in the target language. For uniformity sake, we should avoid transliterating.
-* LEAVE AS IS words, phrases or terms that are hard to be translated in Tagalog/Filipino, particularly the technical ones (DO NOT transliterate).
+* DO NOT translate technical terms to Hiligaynon.
+* DO NOT translate proper nouns such as company brands and trademarks to Hiligaynon.
+* DO NOT transliterate. In Hiligaynon, words are spelled in accordance to how a Filipino enunciates them; examples include drayber (“driver”), diskusyon (“discussion”) and iskul (“school”). Alternatively, words are spelled as they were in the source language. In a strictly formal Hiligaynon translation, purists resort to transliteration only when source words—particularly technical, scientific, medical and legal word forms—definitely have no direct, exact and accurate equivalents in the target language. For uniformity sake, we should avoid transliterating.
+* LEAVE AS IS words, phrases or terms that are hard to be translated in Hiligaynon, particularly the technical ones (DO NOT transliterate).
 
 ### Style
 
@@ -24,8 +24,8 @@ The Mozilla Philippines Community localization style encompasses various element
 
 ### Formality and Tone
 
-* Target users of this project are people who speak and read Tagalog/Filipino.
-* Formal language version of Tagalog/Filipino is appropriate for all Mozilla L10n projects.
+* Target users of this project are people who speak and read Hiligaynon.
+* Formal language version of Hiligaynon is appropriate for all Mozilla L10n projects.
 
 ### Content Principles
 
