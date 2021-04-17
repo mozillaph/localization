@@ -15,7 +15,7 @@ This style guide is broken up into two main parts:
 
 * DO NOT translate technical terms to Cebuano.
 * DO NOT translate proper nouns such as company brands and trademarks to Cebuano.
-* DO NOT transliterate. In Cebuano, words are spelled in accordance to how a Filipino enunciates them; examples include drayber (“driver”), diskusyon (“discussion”) and iskul (“school”). Alternatively, words are spelled as they were in the source language. In a strictly formal Cebuano translation, purists resort to transliteration only when source words—particularly technical, scientific, medical and legal word forms—definitely have no direct, exact and accurate equivalents in the target language. For uniformity sake, we should avoid transliterating.
+* DO NOT transliterate. In Cebuano, words are spelled in accordance to how a Filipino enunciates them; examples include drayber (“driver”), diskusyon (“discussion”) and iskul (“school”). Alternatively, words are spelled as they were in the source language. In a strictly formal Cebuano translation, purists resort to transliteration only when source words—particularly technical, scientific, medical and legal word forms — definitely have no direct, exact and accurate equivalents in the target language. For uniformity sake, we should avoid transliterating.
 * LEAVE AS IS words, phrases or terms that are hard to be translated in Cebuano, particularly the technical ones (DO NOT transliterate).
 
 ### Style
@@ -53,16 +53,22 @@ The Mozilla Philippines Community localization style encompasses various element
 Using natural expressions make our localization sound natural to a native speaker.
 
 * Use the "i-[verb]" format during translation:
-  * [EN] Bookmark this page. | [TL] i-Bookmark ang pahinang ito.
+  * [EN] Bookmark this page. | [TL] i-Bookmark ni nga page.
   * [EN] Cut | [TL] i-Cut
   * [EN] Paste | [TL] i-Paste
-  * EXCEPTION: [EN] Copy | [TL] Kopyahin
+  * EXCEPTION: [EN] Copy | [TL] Kopyaha
 
 ### Handling cultural references, idioms, and slang
 
 Cultural references, idioms, and slang require a full understanding of these references between the cultures of your source and target languages. An example of a cultural reference in English would be the phrase, "kick-off meeting." This is a reference that uses an American football term. It means a meeting to begin a project. To translate it, you can follow one of two approaches:
 
-  * Section contents to be populated.
+  * Use as is.
+    * If the the phrase in question is considered a noun, use as is - eg. "The kick-off meeting is about to start" is translated to either of the following
+      * "Magsugod na ang kick-off meeting."
+      * "Ang kick-off meeting kay magsugod na."
+      * "Sugdan na ang meeting para kick-off."
+  * Condense it into its most basic form in Cebuano, eg. refer to it as "meeting". Thusly, "The kick-off meeting is about to start" can also be translated loosely as
+    * "Magsugod na ang meeting."
 
 ### Style consistency
 
@@ -88,7 +94,7 @@ For the sake of uniformity, the following formats are to be used in MozillaPH L1
 #### Date
 
 * Calendar / Era: Roman / Christian (Anno Domini, AD)
-* Name of Days:
+* Name of Days: English
   * Monday
   * Tuesday
   * Wednesday
@@ -96,7 +102,17 @@ For the sake of uniformity, the following formats are to be used in MozillaPH L1
   * Friday
   * Saturday
   * Sunday
-* Short Name of Days:
+* Name of Days: Cebuano
+
+  * Lunes
+  * Martes
+  * Miyerkoles
+  * Huybes
+  * Biyernes
+  * Sabado
+  * Domingo
+
+* Short Name of Days: English
   * Mon
   * Tue
   * Wed
@@ -104,7 +120,18 @@ For the sake of uniformity, the following formats are to be used in MozillaPH L1
   * Fri
   * Sat
   * Sun
-* Name of Months:
+
+* Short Name of Days: Cebuano
+
+  * Lun
+  * Mar
+  * Mer
+  * Huy
+  * Ber
+  * Sab
+  * Dom
+
+* Name of Months: English
   * January
   * February
   * March
@@ -117,7 +144,25 @@ For the sake of uniformity, the following formats are to be used in MozillaPH L1
   * October
   * November
   * December
-* Short Name of Months:
+
+* Name of Months: Cebuano
+
+
+  * Enero
+  * Pebrero
+  * Marso
+  * Abril
+  * Mayo
+  * Hunyo
+  * Hulyo
+  * Agosto
+  * Septiyembre
+  * Oktubre
+  * Nobiyembre
+  * Disyembre
+  
+* Short Name of Months: English
+
   * Jan
   * Feb
   * Mar
@@ -130,6 +175,22 @@ For the sake of uniformity, the following formats are to be used in MozillaPH L1
   * Oct
   * Nov
   * Dec
+
+* Short Name of Months: Cebuano
+
+  * Ene
+  * Peb
+  * Mar
+  * Abr
+  * May
+  * Hun
+  * Hul
+  * Ago
+  * Sep
+  * Okt
+  * Nob
+  * Dis
+
 * Year Format: English
 * Default Short Date Format: MM-dd-yyyy
 * Currency
@@ -144,10 +205,10 @@ For the sake of uniformity, the following formats are to be used in MozillaPH L1
   * Century: use "ika-" followed by the number (e.g. ika-21)
 * Number
   * When written as English Roman Numeral: as is.
-  * When used as part of a sentence (spelled-out) or as an ordinal number: Translate to Tagalog
+  * When used as part of a sentence (spelled-out) or as an ordinal number: Translate to Cebuano
   * Examples:
-      * [EN] Close one tab. | [TL] Isara ang isang tab.
-      * [EN] Close the second tab. | [TL] Isara ang pangalawang tab.
+      * [EN] Close one tab. | [TL] Isara ang usa ka tab.
+      * [EN] Close the second tab. | [TL] Isara ang ika-duhang tab.
   * When written as part of a telephone number: as is.
 Addresses
   * Country / Region:
@@ -169,7 +230,7 @@ Follow the rules on how to translate numbers
 
 #### Percentages
 
-The Tagalog language follows the English rules for percentages. In Mozilla localization, the percentage symbol (%) is frequently used a placeholder. DO NOT modify or remove placeholders. Follow general software localization guidelines and rules.
+The Cebuano language follows the English rules for percentages. In Mozilla localization, the percentage symbol (%) is frequently used a placeholder. DO NOT modify or remove placeholders. Follow general software localization guidelines and rules.
 
 #### Spelling And Grammar Checks
 
@@ -177,55 +238,97 @@ Spelling checks will be part of Project ATOMPH.
 Grammar checking tools and guides:
     https://languagetool.org/
     http://www.aclweb.org/anthology/W11-3402
+    
+    http://learn101.org/cebuano_grammar.php
+    https://www.gutenberg.org/files/42026/42026-h/42026-h.htm
+    http://ilanguages.org/cebuano_grammar.php
 
 ## Word Forms
 
 ### Pluralization
 
-In Tagalog/Filipino, we use the term "mga" before a noun to denote the common pluralization form:
+In Cebuano/Filipino, we use the term "mga" before a noun to denote the common pluralization form:
 
-* Example: [EN] Letters | [TL] Mga titik
+* Example: [EN] Letters | [TL] Mga letra
 * Example: [EN] Bookmarks | [TL] Mga Bookmark
 
 ### Abbreviations
 
-Here are some of the commonly used abbreviations in Tagalog/Filipino:
+Here are some of the commonly used abbreviations in Cebuano/Filipino:
 
-* [EN] et cetera = etc. | [TL] at iba pa = atbp.
-* [EN] example = ex. | [TL] halimbawa = hal.
+* [EN] et cetera = etc. | [TL] ug uban pa = ubp.
+* [EN] example = ex. | [TL] pananglitan = eg.
+
+"Pananglitan" does not have its short form. Instead, the Latin short form "eg" (exempli gratia) is used. 
 
 ### Acronyms
 
-English acronyms can be used in Tagalog/Filipino for simplicity and practicality.
+English acronyms can be used in Cebuano/Filipino for simplicity and practicality.
 
 ### Punctuation
 
-Tagalog/Filipino follows the universal standards in the use of punctuations.
+Cebuano/Filipino follows the universal standards in the use of punctuations.
 
 ### Emphasis
 
-* Each sentence in Tagalog/Filipino begins with a capital letter.
+* Each sentence in Cebuano/Filipino begins with a capital letter.
 * Proper nouns are written with their first letters capitalized.
 
 ### Hyphens and compounds
 
-Tagalog/Filipino uses the English standards on the use of hyphens and compounds.
+Cebuano/Filipino respects the English standards on the use of hyphens and compounds.
+
+* Use a hyphen in repeated words that are intended to emphasize repetition of action; to show similarities or likeness. Eg
+  
+  * lakaw-lakaw
+  * piyong-piyong
+  * sulat-sulat
+
+* Do not use hyphens in repeated words that are considered root words and cannot stand on their own. Eg.
+
+  * bukubuko
+  * lapalapa
+  * taudtaod
+  
+  * Exceptions: Use a hyphen for words with different meaning. Eg.
+  
+    * Lapulapu (a person/hero) vs lapu-lapu (a kind of fish)
+    * Lainlain (different, assorted) vs lain-lain (set aside)
+    * laway (saliva) vs law-ay (lewd)
+
+* Do not use a hyphen when the repeated word is used as a proper noun. Eg.
+  
+  * Lapulapu
+  * kasingkasing
+  * habalhabal
+
+* Do not use a hyphen when the repeated word is a root word. Eg.
+
+  * Lumlom
+  * suksok
+  * luglog
+  
+A hyphen is necessary to separate "g" from prefixes like "mag" when directly followed by a vowel. Eg.
+
+  * mag-unay
+  * mag-abay
+  * nag-utro
 
 ### Prepositions and articles
 
-What is the appropriate form of expressing prepositions and articles in your language?
+(This section to be added soon.)
 
 ### Diacritics and Special characters
 
-An official spelling system that uses diacritical marks for indicating long vowels and final glottal stops was introduced in 1939. Although it is used in some dictionaries and Tagalog/Filipino learning materials, it has not been generally adopted by native speakers.
+An official spelling system that uses diacritical marks for indicating long vowels and final glottal stops was introduced in 1939. Although it is used in some dictionaries and Cebuano/Filipino learning materials, it has not been generally adopted by native speakers.
 
 ### Quotes
 
-Tagalog/Filipino follows the Universal Standard for quotes and brackets.
+Cebuano/Filipino follows the Universal Standard for quotes and brackets.
 
 ### Whitespace
 
-Tagalog/Filipino requires a space in between words and after each punctuation mark.
+Cebuano/Filipino requires a space in between words and after each punctuation mark.
 
 ### User Interface Elements
 
